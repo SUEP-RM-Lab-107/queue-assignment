@@ -9,19 +9,19 @@
  * 队列数据结构定义 (仅供参考)
  * ============================================ */
 
-//  // 队列节点结构
-// typedef struct QueueNode {
-//     int data;                   // 数据域（可根据需要修改为其他类型）
-//     struct QueueNode* next;     // 指针域，指向下一个节点
-// } QueueNode;
+ //  // 队列节点结构
+ // typedef struct QueueNode {
+ //     int data;                   // 数据域（可根据需要修改为其他类型）
+ //     struct QueueNode* next;     // 指针域，指向下一个节点
+ // } QueueNode;
 
-// // 队列主结构
-// typedef struct {
-//     QueueNode* front;           // 队首指针（出队端）
-//     QueueNode* rear;            // 队尾指针（入队端）
-//     size_t size;                // 当前队列元素个数
-//     size_t capacity;            // 最大容量（可选，0表示无限制）
-// } Queue;
+ // // 队列主结构
+ // typedef struct {
+ //     QueueNode* front;           // 队首指针（出队端）
+ //     QueueNode* rear;            // 队尾指针（入队端）
+ //     size_t size;                // 当前队列元素个数
+ //     size_t capacity;            // 最大容量（可选，0表示无限制）
+ // } Queue;
 
 typedef struct Queue Queue;
 
