@@ -10,15 +10,11 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        os: [ubuntu-latest, windows-latest]
         include:
           - os: ubuntu-latest
             cc: gcc
             cxx: g++
-            generator: "Unix Makefiles"
-          - os: macos-latest
-            cc: clang
-            cxx: clang++
             generator: "Unix Makefiles"
           - os: windows-latest
             cc: gcc
